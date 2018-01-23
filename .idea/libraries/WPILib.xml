@@ -1,0 +1,25 @@
+<component name="libraryTable">
+  <library name="WPILib">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/wpilib/java/current/lib/WPILib.jar!/" />
+      <root url="jar://$USER_HOME$/wpilib/java/current/lib/cscore.jar!/" />
+      <root url="jar://$USER_HOME$/wpilib/java/current/lib/NetworkTables.jar!/" />
+      <root url="jar://$USER_HOME$/wpilib/java/current/lib/opencv.jar!/" />
+      <root url="jar://$USER_HOME$/wpilib/tools/java-installer.jar!/" />
+      <root url="jar://$USER_HOME$/wpilib/tools/OutlineViewer.jar!/" />
+      <root url="file://$USER_HOME$/wpilib/tools/plugins" />
+      <root url="jar://$USER_HOME$/wpilib/tools/RobotBuilder.jar!/" />
+      <root url="jar://$USER_HOME$/wpilib/tools/sfx.jar!/" />
+      <root url="jar://$USER_HOME$/wpilib/tools/SmartDashboard.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/wpilib/java/current/lib/cscore-sources.jar!/" />
+      <root url="jar://$USER_HOME$/wpilib/java/current/lib/NetworkTables-sources.jar!/" />
+      <root url="jar://$USER_HOME$/wpilib/java/current/lib/opencv-sources.jar!/" />
+      <root url="jar://$USER_HOME$/wpilib/java/current/lib/WPILib-sources.jar!/" />
+      <root url="jar://$USER_HOME$/wpilib/tools/RobotBuilder.jar!/" />
+    </SOURCES>
+    <jarDirectory url="file://$USER_HOME$/wpilib/tools/plugins" recursive="false" />
+  </library>
+</component>

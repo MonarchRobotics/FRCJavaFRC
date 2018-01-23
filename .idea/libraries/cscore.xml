@@ -1,13 +1,15 @@
 <component name="libraryTable">
   <library name="cscore">
     <CLASSES>
-      <root url="jar://$PROJECT_DIR$/build/jars/cscore.jar!/" />
-      <root url="jar://$PROJECT_DIR$/build/jars/NetworkTables.jar!/" />
-      <root url="jar://$PROJECT_DIR$/build/jars/opencv.jar!/" />
-      <root url="jar://$PROJECT_DIR$/build/jars/TalonSRXLibJava.jar!/" />
-      <root url="jar://$PROJECT_DIR$/build/jars/WPILib.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/CTRE_Phoenix_FRCLibs_NON-WINDOWS_v5.1.3.1/java/lib/CTRE_Phoenix.jar!/" />
     </CLASSES>
     <JAVADOC />
-    <SOURCES />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/Downloads/CTRE_Phoenix_FRCLibs_NON-WINDOWS_v5.1.3.1/java/lib/CTRE_Phoenix-sources.jar!/" />
+      <root url="jar://$USER_HOME$/wpilib/java/current/lib/cscore-sources.jar!/" />
+      <root url="jar://$USER_HOME$/wpilib/java/current/lib/NetworkTables-sources.jar!/" />
+      <root url="jar://$USER_HOME$/wpilib/java/current/lib/opencv-sources.jar!/" />
+      <root url="jar://$USER_HOME$/wpilib/java/current/lib/WPILib-sources.jar!/" />
+    </SOURCES>
   </library>
 </component>

@@ -1,7 +1,9 @@
 package all;
 
+import edu.wpi.first.wpilibj.XboxController;
+
 /**
- * Holds controllers, buttons, etc.
+ * Holds controllers, buttons, etc
  */
 public class OI {
     //// CREATING BUTTONS
@@ -21,19 +23,21 @@ public class OI {
 
     // Start the all.command when the button is pressed and let it run the all.command
     // until it is finished as determined by it's isFinished method.
-    // button.whenPressed(new ExampleCommand());
+    // button.whenPressed(new DriveMecanum());
 
     // Run the all.command while the button is being held down and interrupt it once
     // the button is released.
-    // button.whileHeld(new ExampleCommand());
+    // button.whileHeld(new DriveMecanum());
 
     // Start the all.command when the button is released  and let it run the all.command
     // until it is finished as determined by it's isFinished method.
-    // button.whenReleased(new ExampleCommand());
+    // button.whenReleased(new DriveMecanum());
+
+    public static XboxController driverPad;
 
     public OI(){
         //Initialize Joysticks and stuff
-
+        driverPad = new XboxController(0);
     }
 
     // Dead zone function, used to avoid moving when joystick jitters
@@ -48,6 +52,10 @@ public class OI {
             }
         }
         return 0;
+    }
+
+    public static double scalespeed(double val, double scalespeed) {
+        return val * scalespeed;
     }
 
 }

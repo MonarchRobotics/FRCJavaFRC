@@ -3,7 +3,7 @@ package all;
 import edu.wpi.first.wpilibj.IterativeRobot;
 import edu.wpi.first.wpilibj.command.Scheduler;
 import edu.wpi.first.wpilibj.livewindow.LiveWindow;
-import all.subsystem.ExampleSubsystem;
+import all.subsystem.Drivetrain;
 
 /**
  * Created by cooper on 2/18/17.
@@ -12,7 +12,7 @@ public class Robot extends IterativeRobot {
     /*
     * Need to initialize all.OI, subsytems
     * */
-    public static ExampleSubsystem exampleSubsystem = new ExampleSubsystem(RobotMap.wheel1);
+    public static Drivetrain drivetrain = new Drivetrain(RobotMap.getFrontleft());
 
     @Override
     public void robotInit(){
