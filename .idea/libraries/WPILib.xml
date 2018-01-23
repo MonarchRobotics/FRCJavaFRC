@@ -11,8 +11,11 @@
       <root url="jar://$USER_HOME$/wpilib/tools/RobotBuilder.jar!/" />
       <root url="jar://$USER_HOME$/wpilib/tools/sfx.jar!/" />
       <root url="jar://$USER_HOME$/wpilib/tools/SmartDashboard.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../FRCCode2018/build/libs/FRCCode2018.jar!/" />
     </CLASSES>
-    <JAVADOC />
+    <JAVADOC>
+      <root url="jar://$PROJECT_DIR$/../FRCCode2018/build/libs/FRCCode2018.jar!/docs" />
+    </JAVADOC>
     <SOURCES>
       <root url="jar://$USER_HOME$/wpilib/java/current/lib/cscore-sources.jar!/" />
       <root url="jar://$USER_HOME$/wpilib/java/current/lib/NetworkTables-sources.jar!/" />

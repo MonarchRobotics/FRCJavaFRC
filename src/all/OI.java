@@ -23,21 +23,18 @@ public class OI {
 
     // Start the all.command when the button is pressed and let it run the all.command
     // until it is finished as determined by it's isFinished method.
-    // button.whenPressed(new DriveMecanum());
+    // button.whenPressed(new ExampleCommand());
 
     // Run the all.command while the button is being held down and interrupt it once
     // the button is released.
-    // button.whileHeld(new DriveMecanum());
+    // button.whileHeld(new ExampleCommand());
 
     // Start the all.command when the button is released  and let it run the all.command
     // until it is finished as determined by it's isFinished method.
-    // button.whenReleased(new DriveMecanum());
-
-    public static XboxController driverPad;
+    // button.whenReleased(new ExampleCommand());
 
     public OI(){
         //Initialize Joysticks and stuff
-        driverPad = new XboxController(0);
     }
 
     // Dead zone function, used to avoid moving when joystick jitters
@@ -52,10 +49,6 @@ public class OI {
             }
         }
         return 0;
-    }
-
-    public static double scalespeed(double val, double scalespeed) {
-        return val * scalespeed;
     }
 
 }
